@@ -45,7 +45,7 @@ err.catch(reason => console.log(reason.message));
 
 const fulfillment = Promise.resolve(42); // promise
 const rejection = Promise.reject(43); // promise
-rejection.catch(reason => console.log(reason));
+rejection.catch(reason => console.log(reason)); // Must catch??
 
 
 
